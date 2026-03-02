@@ -1,4 +1,4 @@
-[![Node CI-workflow](https://github.com/juhahinkula/ci-testing-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/juhahinkula/ci-testing-demo/actions/workflows/ci.yml)
+[![CI-workflow](https://github.com/juhahinkula/ci-testing-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/juhahinkula/ci-testing-demo/actions/workflows/ci.yml)
 
 ## Node.js Application for CI Training
 
