@@ -24,5 +24,11 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
+
+  Deploy:
+    runs-on: ubuntu-latest
+    needs: CI-workflow
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
       - name: Deploy
-        run: curl ${{secrects.RENDER_DEPLOY_HOOK_URL}}
+        run: curl ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
